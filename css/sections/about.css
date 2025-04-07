@@ -1,0 +1,88 @@
+.about-us__section {
+  min-height: 720px;
+  display: flex;
+  overflow: hidden;
+}
+.about-us__images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+}
+.about-us__images div {
+  flex: 1;
+  padding: 32px 64px;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about-us__image1 {
+  border-bottom: 8px solid var(--color-creamson);
+  background-image: url(/assets/about_bg1.png);
+}
+.about-us__image1 img {
+  width: 255px;
+  height: 200px;
+}
+.about-us__cta-btn {
+  position: absolute;
+  right: 0;
+
+  min-height: 64px;
+  border: none;
+  border-radius: 32px 0px 0px 32px;
+  padding: 12px 24px;
+  background-color: var(--secondary-color);
+  color: white;
+
+  font-family: var(--plus-jakarta-sans);
+  line-height: 23px;
+  cursor: pointer;
+}
+
+.about-us__cta-btn img {
+  object-fit: contain;
+  margin-left: 32px;
+  width: 12px;
+  height: 12px;
+}
+.about-us__image2 {
+  background-image: url(/assets/about_bg2.png);
+}
+.about-us__image2 img {
+  width: 255px;
+  height: 200px;
+}
+.about-us__content {
+  padding: 64px;
+  flex: 1.01;
+}
+.sushi__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--primary-color);
+  opacity: 0.8;
+  letter-spacing: -0.01em;
+}
+.sushi__title {
+  font-family: var(--playfair-display);
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-top: 16px;
+}
+.sushi__description {
+  font-family: var(--plus-jakarta-sans);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--secondary-color);
+  letter-spacing: -0.01em;
+  line-height: 36px;
+  opacity: 0.8;
+  margin: 32px 0px;
+}
